@@ -70,7 +70,7 @@ class _PostCreateState extends State<PostCreate> {
                   slivers: [
                     widget.titleWidget ??
                         SliverAppBar(
-                          title: Text('Create Post'),
+                          leading: Text('Create Post'),
                           actions: [
                             GestureDetector(
                               child: Text('Create'),
