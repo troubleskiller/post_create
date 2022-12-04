@@ -69,7 +69,7 @@ class _PostCreateState extends State<PostCreate> {
                 child: CustomScrollView(
                   slivers: [
                     widget.titleWidget ??
-                        AppBar(
+                        SliverAppBar(
                           title: Text('Create Post'),
                           actions: [
                             GestureDetector(
